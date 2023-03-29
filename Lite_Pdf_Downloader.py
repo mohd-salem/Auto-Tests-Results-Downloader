@@ -36,7 +36,7 @@ def connect():
     global getpdf
     while (1):
         try:
-            driver.get('http://umutlab.meddatam.com:81/meddataweblabclient.dll')
+            driver.get('URL')
             print("Login to the system")
             driver.find_element_by_xpath('//*[@id="O5B_id-inputEl"]').send_keys("*****")
             driver.find_element_by_xpath('//*[@id="O93_id-inputEl"]').clear()
